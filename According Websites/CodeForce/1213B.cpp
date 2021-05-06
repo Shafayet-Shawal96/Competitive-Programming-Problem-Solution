@@ -19,7 +19,7 @@ int main()
         int ans=0;
         for(int i=n-2;i>=0;i--){
             if(ar[i]>mini) ans++;
-            else mini = ar[i];
+            else mini=ar[i];
         }
         cout<<ans<<endl;
     }
